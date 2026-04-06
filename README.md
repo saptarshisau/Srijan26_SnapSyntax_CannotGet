@@ -6,7 +6,7 @@ A Zero-JS marvel proving HTML/CSS Turing-completeness. Purely driven by the Chec
 
 # 🚀 Zero-JS Storyboard: A Pure CSS Application Engine
 
-**Live Demo:** [Insert Your Vercel/Netlify Link Here]
+**Live Demo:** [[Insert Your Vercel/Netlify Link Here](https://srijan26-snap-syntax-cannot-get.vercel.app/)]
 
 ### The Astonishing Idea
 This project was engineered to prove a point: modern HTML and CSS rendering engines are powerful enough to handle complex application logic, global state management, and dynamic DOM manipulation **without a single line of JavaScript.** This is not a static webpage. It is a fully interactive, state-driven interface built purely by exploiting advanced CSS cascading rules and pseudo-classes.
