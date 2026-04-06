@@ -1,5 +1,4 @@
 # Srijan26_SnapSyntax_CannotGet
-A Zero-JS marvel proving HTML/CSS Turing-completeness.
 
 A Zero-JS marvel proving HTML/CSS Turing-completeness. Purely driven by the Checkbox Hack &amp; native pseudo-classes, it features global state management, dynamic theming, layout orchestration, and hash-routed modals—achieving full application logic without a single line of JavaScript. Max performance, pure CSS engineering.
 
