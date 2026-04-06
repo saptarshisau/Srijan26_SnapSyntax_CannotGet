@@ -1,0 +1,233 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Zero-JS</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+  <body>
+    <input
+      type="radio"
+      name="themeGroup"
+      id="theme-cyberpunk"
+      class="state-manager"
+      checked
+    />
+    <input
+      type="radio"
+      name="themeGroup"
+      id="theme-light"
+      class="state-manager"
+    />
+    <input
+      type="radio"
+      name="themeGroup"
+      id="theme-dark"
+      class="state-manager"
+    />
+
+    <input
+      type="radio"
+      name="layoutGroup"
+      id="layout-grid"
+      class="state-manager"
+      checked
+    />
+    <input
+      type="radio"
+      name="layoutGroup"
+      id="layout-list"
+      class="state-manager"
+    />
+
+    <input
+      type="radio"
+      name="tabGroup"
+      id="tab-blueprint"
+      class="state-manager"
+      checked
+    />
+    <input
+      type="radio"
+      name="tabGroup"
+      id="tab-execution"
+      class="state-manager"
+    />
+
+    <div class="app-container">
+      <aside class="control-panel">
+        <h2>Control Center</h2>
+
+        <div class="control-group">
+          <h3>1. Theme Selector</h3>
+          <label for="theme-cyberpunk" class="btn btn-cyber"
+            >Cyberpunk Mode</label
+          >
+          <label for="theme-light" class="btn btn-light">Light Mode</label>
+          <label for="theme-dark" class="btn btn-dark">Dark Mode</label>
+        </div>
+
+        <div class="control-group">
+          <h3>2. Layout Orchestrator</h3>
+          <div class="layout-toggles">
+            <label for="layout-grid" class="btn">Grid View</label>
+            <label for="layout-list" class="btn">List View</label>
+          </div>
+        </div>
+
+        <div class="sys-status">SYS.ONLINE // NO_JS_DETECTED</div>
+      </aside>
+
+      <main class="display-area">
+        <header class="hero-header">
+          <h1 class="glitch-text" data-text="Zero-JS Storyboard">
+            Zero-JS Storyboard
+          </h1>
+          <p>Advanced CSS state management and visual rendering.</p>
+
+          <nav class="main-tabs">
+            <label for="tab-blueprint" class="tab-label"
+              >The Blueprint (Concept)</label
+            >
+            <label for="tab-execution" class="tab-label"
+              >The Execution (Modules)</label
+            >
+          </nav>
+        </header>
+
+        <div class="tab-pane" id="pane-blueprint">
+          <div class="concept-terminal">
+            <div class="terminal-header">
+              <span>root@zero-js:~# ./explain_project.sh</span>
+            </div>
+            <div class="terminal-body">
+              <p class="term-text">> INITIALIZING CORE CONCEPT...</p>
+              <p class="term-text">
+                > <strong>THE ASTONISHING IDEA:</strong> To prove that modern
+                HTML/CSS engines are Turing-complete enough to handle complex
+                application logic without a single line of JavaScript.
+              </p>
+              <br />
+              <p class="term-text">> <strong>MECHANICS EXPOSED:</strong></p>
+              <ul class="term-list">
+                <li>
+                  <span>[STATE]</span> Utilizing the
+                  <span class="highlight"
+                    >Checkbox Hack (&lt;input type="radio"&gt;)</span
+                  >
+                  to create immutable global states.
+                </li>
+                <li>
+                  <span>[DOM MANIPULATION]</span> Deploying the
+                  <span class="highlight">General Sibling Combinator (~)</span>
+                  to alter variables, themes, and layouts instantly based on
+                  state changes.
+                </li>
+                <li>
+                  <span>[ROUTING]</span> Hijacking the URL hash with the
+                  <span class="highlight">:target pseudo-class</span> to
+                  orchestrate full-screen modals.
+                </li>
+              </ul>
+              <br />
+              <p class="term-text">
+                > STATUS: 100% JS-FREE. MAXIMUM PERFORMANCE ACHIEVED.
+              </p>
+              <p class="term-text blinking-cursor">_</p>
+            </div>
+          </div>
+
+          <section class="blueprint-panel">
+            <div class="blueprint-card">
+              <h3>1. The Checkbox Hack</h3>
+              <p>State Management</p>
+              <div class="blueprint-diagram">
+                <div class="state-light"></div>
+              </div>
+            </div>
+            <div class="blueprint-card">
+              <h3>2. :target Pseudo-Class</h3>
+              <p>Modal Orchestration</p>
+              <div class="blueprint-diagram">
+                <div
+                  class="state-light"
+                  style="animation-delay: 0.3s; background: #00ffcc"
+                ></div>
+              </div>
+            </div>
+            <div class="blueprint-card">
+              <h3>3. ~ Sibling Combinator</h3>
+              <p>Layout Flux</p>
+              <div class="blueprint-diagram">
+                <div
+                  class="state-light"
+                  style="animation-delay: 0.6s; background: #3b82f6"
+                ></div>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="tab-pane" id="pane-execution">
+          <div class="content-wrapper">
+            <div class="card">
+              <div
+                class="card-img"
+                style="background: linear-gradient(45deg, #ff00ff, #00ffcc)"
+              ></div>
+              <h4>Module Alpha</h4>
+              <p>CSS Grid architecture demonstration.</p>
+              <a href="#modal-alpha" class="trigger-link">View Deep Dive -></a>
+            </div>
+            <div class="card">
+              <div
+                class="card-img"
+                style="background: linear-gradient(45deg, #00ffcc, #3b82f6)"
+              ></div>
+              <h4>Module Beta</h4>
+              <p>Interactive state rendering.</p>
+              <a href="#modal-beta" class="trigger-link">View Deep Dive -></a>
+            </div>
+            <div class="card">
+              <div
+                class="card-img"
+                style="background: linear-gradient(45deg, #ff00ff, #ffaa00)"
+              ></div>
+              <h4>Module Gamma</h4>
+              <p>Fluid typography and layout shifts.</p>
+              <a href="#modal-gamma" class="trigger-link">View Deep Dive -></a>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <div id="modal-alpha" class="css-modal">
+          <div class="modal-content">
+              <a href="#" class="close-modal">[X] CLOSE</a>
+              <h2>Alpha Module Specs</h2>
+              <p>This modal was summoned purely via CSS using the <code>:target</code> property. Look at the URL bar—no JavaScript click listeners were used.</p>
+              <div class="placeholder-graph" style="background: linear-gradient(to right, #ff00ff, transparent);"></div>
+          </div>
+        </div>
+
+        <div id="modal-beta" class="css-modal">
+            <div class="modal-content">
+                <a href="#" class="close-modal">[X] CLOSE</a>
+                <h2>Beta Module Specs</h2>
+                <p>System operating at optimal efficiency. All UI changes handled via native browser rendering engines.</p>
+                <div class="placeholder-graph" style="background: linear-gradient(to right, #00ffcc, transparent);"></div>
+            </div>
+          </div>
+
+          <div id="modal-gamma" class="css-modal">
+            <div class="modal-content">
+                <a href="#" class="close-modal">[X] CLOSE</a>
+                <h2>Gamma Module Specs</h2>
+                <p>Layouts shift from grid to flex-column flawlessly without recalculating JS DOM nodes.</p>
+                <div class="placeholder-graph" style="background: linear-gradient(to right, #ffaa00, transparent);"></div>
+            </div>
+          </div>
+
+    </div> </body>
+</html>
